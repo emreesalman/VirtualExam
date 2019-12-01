@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Teacher.master.cs" Inherits="VirtualExam.MasterPage.Teacher" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="../Style/Teacher.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <%--/----------------------------------------------------------%>
+        <div class="container-box">
+            <%--/----------------------------------------------------------%>
+            <div class="sidebar-menu">
+               
+               <aside>
+
+                        <div class="ıcon-lıst"></div>
+                        <div class="ıcon-add"></div>
+                        <div class="ıcon-clear"></div>
+                        <div class="ıcon-exit"></div>
+                        <div class="ıcon-info"></div>
+                        <div class="ıcon-feedback"></div>
+
+               </aside>
+
+            </div>
+            <%--/----------------------------------------------------------%>
+            <div class="content-box">
+
+                afafssfaa
+
+            </div>
+            <%--/----------------------------------------------------------%>
+
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

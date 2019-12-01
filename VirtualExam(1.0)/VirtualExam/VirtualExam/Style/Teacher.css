@@ -1,0 +1,69 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+.container-box {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    margin: auto;
+}
+.sidebar-menu {
+    height: 100%;
+    width: 5%;
+    float: left;
+    background-color: #555656;
+}
+.content-box {
+    height: 100%;
+    width: 95%;
+    background-color: palevioletred;
+    float:left;
+}
+aside{
+    height:100%;
+    width:100%;
+   
+}
+aside div{
+    width:100%;
+    height:65px;
+    background-color: #555656;
+    border-bottom: solid 1px #464646;
+   
+}
+.ıcon-clear {
+    background-image: url('../Icons/remove.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.ıcon-add {
+    background-image: url('../Icons/add.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  
+}
+.ıcon-lıst {
+    background-image: url('../Icons/list.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ıcon-info {
+    background-image: url('../Icons/ınfo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.ıcon-exit {
+    background-image: url('../Icons/exit.png');
+    background-repeat: no-repeat;
+    background-position: center;
+ 
+}
+.ıcon-feedback {
+    background-image: url('../Icons/feedback.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  
+}
