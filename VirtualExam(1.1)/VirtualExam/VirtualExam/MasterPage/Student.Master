@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Student.master.cs" Inherits="VirtualExam.MasterPage.Student" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="../Style/Student.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <%--/----------------------------------------------------------%>
+        <div class="container-box">
+            <%--/----------------------------------------------------------%>
+            <div class="sidebar-menu">
+               
+               <aside>
+
+                        <a href="../Page/StudentIndex.aspx"><div class="ıcon-baseline"></div></a> 
+                        <a href="../Page/StudentStats.aspx"><div class="ıcon-statsList"></div></a> 
+                       <a href="../Page/Statistics.aspx"><div class="ıcon-static"></div></a> 
+                          <a href="../Account/Login.aspx?state=off"><div class="ıcon-exit"></div></a> 
+                        <div class="ıcon-info"></div>
+                        
+
+               </aside>
+
+            </div>
+            <%--/----------------------------------------------------------%>
+            <div class="content-box">
+
+                   <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                  </asp:ContentPlaceHolder>
+
+            </div>
+            <%--/----------------------------------------------------------%>
+
+
+        
+        </div>
+    </form>
+         
+     
+</body>
+</html>

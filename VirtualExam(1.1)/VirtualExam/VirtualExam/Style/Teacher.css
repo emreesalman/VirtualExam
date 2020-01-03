@@ -1,0 +1,212 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+.container-box {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    margin: auto;
+}
+.sidebar-menu {
+    height: 100%;
+    width: 5%;
+    float: left;
+    background-color: #555656;
+}
+.content-box {
+    height: 100%;
+    width: 95%;
+    float:left;
+}
+aside{
+    height:100%;
+    width:100%;
+   
+}
+aside div{
+    width:100%;
+    height:65px;
+    background-color: #555656;
+    border-bottom: solid 1px #464646;
+   
+}
+.ıcon-clear {
+    background-image: url('../Icons/remove.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.ıcon-add {
+    background-image: url('../Icons/add.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  
+}
+.ıcon-lıst {
+    background-image: url('../Icons/list.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ıcon-info {
+    background-image: url('../Icons/ınfo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.ıcon-exit {
+    background-image: url('../Icons/exit.png');
+    background-repeat: no-repeat;
+    background-position: center;
+ 
+}
+.ıcon-feedback {
+    background-image: url('../Icons/feedback.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  
+}
+.student-list {
+    width: 80%;
+    height: auto;
+   
+    
+}
+     .table {
+      
+        width: 100%;
+        padding: 20px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top:50px;
+    }
+         .table .thead {
+            background-color: #484848;
+            width:100%;
+            height:45px;
+            color: white;
+        }
+        .table .tbody {
+            width: 100%;
+            height: 52px;
+        }
+        .table .thead .th {
+            float: left;
+            width: 25%;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            text-align: left;
+        }
+
+        .table .tbody .td {
+            border-bottom: 1px solid #ddd;
+            float: left;
+            width: 25%;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            text-align: left;
+        }
+        .tbody:hover {
+            background-color: #dcdcdc;
+        }
+   
+.addQuestions {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top:50px;
+   
+}
+    .drp{
+        width:100%;
+        height:45px;
+        margin-bottom:50px;
+        border-radius:5px;
+        outline:none;
+        padding-left:15px;
+        position:static;
+        
+    }
+.title {
+    display: inline-block;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 4px;
+    color: #323232;
+    font-size: 16px;
+}
+
+
+
+/* REMOVE CSS  */
+.removeQuestions {
+    width: 80%;
+    height:auto;
+  
+    padding-top: 50px;
+    
+}
+
+.drpRemove {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 15px;
+    position: static;
+    margin-left:10%;
+}
+
+.remove-title {
+    display: inline-block;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 4px;
+    color: #323232;
+    font-size: 16px;
+    margin-left: 10%;
+}
+
+/*.removeQuestions table {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 20px;
+    
+   
+    margin-top: 50px;
+}
+
+    .removeQuestions table thead {
+        background-color: #484848;
+        color: white;
+    }
+
+.removeQuestions th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+.removeQuestions thead th:hover {
+    background-color: #6e6e6e;
+}
+
+.removeQuestions tbody tr:hover {
+    background-color: #dcdcdc;
+}*/
+.btn {
+    width: 250px;
+    height: 35px;
+    outline: none;
+    border: 0;
+    background-color: #6a89cc;
+    color:white;
+}
+.lblError {
+    font-size: 15px;
+    color: #c70c0c
+}
+.tbody a{
+    outline:none;
+    text-decoration:none;
+    color:#ff7777;
+}
